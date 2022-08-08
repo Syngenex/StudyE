@@ -11,7 +11,9 @@ import android.text.Html;
 import android.text.Spanned;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
@@ -265,6 +267,7 @@ public class GetAnswerActivity extends AppCompatActivity implements View.OnClick
                     shou_answer(question_num);
                 }
             }
+
         });
 
     }

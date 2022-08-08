@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Syngenex/Desktop/Android_project/StudyE/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/Syngenex/Desktop/Android_project/StudyE/app/src/main/res/layout/activity_answer.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Syngenex/Desktop/Android_project/StudyE/app/src/main/res/layout/activity_answer_item.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Syngenex/Desktop/Android_project/StudyE/app/src/main/res/layout/activity_getvip.xml" value="0.25" />
+        <entry key="..\:/Users/Syngenex/Desktop/Android_project/StudyE/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Syngenex/Desktop/Android_project/StudyE/app/src/main/res/layout/activity_question.xml" value="0.25" />
+        <entry key="..\:/Users/Syngenex/Desktop/Android_project/StudyE/app/src/main/res/layout/activity_webview.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Syngenex/Desktop/Android_project/studyE/StudyE/app/src/main/res/layout/activity_login.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Syngenex/Desktop/Android_project/studyE/app/src/main/res/layout/activity_about.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Syngenex/Desktop/Android_project/studyE/app/src/main/res/layout/activity_answer.xml" value="0.12777777777777777" />
