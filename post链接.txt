@@ -1,0 +1,14 @@
+获取课程
+http://103.239.153.192:8081/suite/appCourseClass/getStudentLearnClass.do?
+返回
+{"data":[{"courseKey":"2775313","name":"智能终端应用开发","desc":"     介绍基于安卓平台的嵌入式的应用开发，手机嵌入式软件的高级界面编程、数据存储编程等内容。嵌入式软件开发基础知识、串口的编程原理与实现方式、多种通信方式等。通过本课程学习，使学生了解串口的编程原理和实现方式，通过调用API能够完成各种数据的采集、视频数据采集及设备的控制、能够使用多种通信方式进行数据的通信，实现综合的智能终端应用程序的开发。","pic":"2781843","classTitle":"2020","classKey":"62743098"},{"courseKey":"2302425","name":"物联网工程系统集成","desc":"","pic":"","classTitle":"2020级物联网应用技术","classKey":"62657178"},{"courseKey":"46692024","name":"经济思维与实践","desc":"","pic":"","classTitle":"2020级物联网应用技术","classKey":"62657174"},{"courseKey":"18936151","name":"交通运输概论","desc":"","pic":"","classTitle":"20030302","classKey":"59126245"},{"courseKey":"54554628","name":"局域网管理","desc":"","pic":"","classTitle":"局域网管理教学班","classKey":"54554685"},{"courseKey":"2074892","name":"传感网技术及应用","desc":" 本课程采用“教、学、做”一体化教学模式，项目为导向、任务驱动等教学方法，旨在培养学生的ZigBee技术应用、蓝牙4.0应用、GPRS应用、WIFI应用、电路分析、测试、制作、调试能力及创新意识，为学生职业能力培养和职业素养养成起主要支撑或明显促进作用，为《物联网应用开发》、《毕业设计》等后续课程和今后的工作奠定了基础。","pic":"24327389","classTitle":"20级物联网","classKey":"53268067"}],"msg":"","success":true}
+
+获取作业任务
+http://103.239.153.192:8081/suite/appTodo/count.do?types=doHomework&by=class
+返回
+{"data":{"62657174":0,"62743098":1,"62657178":0,"54554685":0,"53268067":2,"59126245":0},"msg":"","success":true}
+
+获取作业列表
+http://103.239.153.192:8081/suite/appAssignmentList/getUnDoHomewList.do?classKey=62743098
+返回
+{"data":[{"classKey":"62743098","courseKey":null,"assessment":false,"key":"","assignType":16,"enableObjectKey":"62745506","status2":"","title":"本学期课后研究主题提交","exerciseKey":"62745504","courseStructure":"","totalCount":0,"commentCount":0,"theFinish":false,"mutualCommentsSize":0,"markingType":1,"publishStartTime":"2022-03-04 08:32","publishEndTime":"2022-03-10 22:00","studentUser":"","className":"","status":"进行中"}],"msg":"","success":true}

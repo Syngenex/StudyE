@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question_outlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="right"
+        android:text="退出登录"/>
+
+    <TextView
+        android:id="@+id/question_helloWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:text="加载中，请稍后"/>
+
+    <EditText
+        android:id="@+id/question_testKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="testKey"/>
+
+
+    <Button
+        android:id="@+id/question_getKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_circle_shape"
+        android:text="解析题目" />
+
+    <TextView
+        android:id="@+id/question_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关于本软件"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF0000"
+        android:textSize="15sp" />
+</LinearLayout>

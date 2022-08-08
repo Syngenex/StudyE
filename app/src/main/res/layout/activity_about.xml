@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="关于"
+        android:textSize="20sp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/how"/>
+
+        <TextView
+            android:id="@+id/about_about"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity=""
+            android:text="使用说明"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/vip"/>
+
+        <TextView
+            android:id="@+id/about_getvip"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity=""
+            android:text="关于高级版"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/into"/>
+
+        <TextView
+            android:id="@+id/about_into"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity=""
+            android:text="加入交流群"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/update" />
+
+        <TextView
+            android:id="@+id/about_getupdata"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity=""
+            android:text="检查更新"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/user"/>
+
+        <TextView
+            android:id="@+id/about_user"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:gravity=""
+            android:text="用户协议"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>
